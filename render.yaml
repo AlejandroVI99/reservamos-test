@@ -14,7 +14,7 @@ services:
         fromDatabase:
           name: postgres
           property: connectionString
-      - key: RAILS_MASTER_KEY
+      - key: OPENWEATHER_API_TOKEN
         sync: false
       - key: WEB_CONCURRENCY
         value: 2
